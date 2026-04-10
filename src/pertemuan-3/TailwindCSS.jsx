@@ -46,6 +46,8 @@ export default function TailwindCSS() {
           <Typography />
         </div>
 
+        
+
         {/* Data Input Section */}
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <div className="bg-[#14161c] border-2 border-gray-800 p-8 relative group">
@@ -174,3 +176,4 @@ function ShadowEffects() {
     </div>
   );
 }
+
