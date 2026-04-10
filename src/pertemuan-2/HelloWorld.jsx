@@ -34,7 +34,7 @@ function GreetingBinjai(){
 
 function QuoteText() {
     const text = "Mulutmu Bebekmu";
-    const text2 = "Aku ingin jadi bebek";
+    const text2 = "Aku ingin punya bebek";
     return (
         <div>
             <hr/>
