@@ -1,0 +1,352 @@
+[
+  {
+    "id": "SIG-001",
+    "name": "SIGNATURE // AYAKA",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4090 Founders Edition",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 9 7950X3D",
+    "ram": "64GB DDR5 6400MHz",
+    "coolerType": "Custom Loop",
+    "coolerModel": "EKWB Quantum Reflection",
+    "price": 4599,
+    "image": "https://i.imgur.com/sFanPRj.jpeg",
+    "tags": [
+      "Signature",
+      "Ultra-High",
+      "White-Build",
+      "Workstation"
+    ]
+  },
+  {
+    "id": "SIG-002",
+    "name": "SIGNATURE // CHISATO",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4080 Super",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i9-14900KS",
+    "ram": "32GB DDR5 7200MHz",
+    "coolerType": "Liquid",
+    "coolerModel": "ASUS ROG Ryujin III",
+    "price": 3899,
+    "image": "https://xoticpc.com/cdn/shop/files/Y70REUX3DMAIN.png?v=1759502198",
+    "tags": [
+      "Signature",
+      "Overclocked",
+      "Red-Accent",
+      "Pro-Gaming"
+    ]
+  },
+  {
+    "id": "SIG-003",
+    "name": "SIGNATURE // KAGURA",
+    "gpuBrand": "AMD",
+    "gpuModel": "Radeon RX 7900 XTX",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 7 7800X3D",
+    "ram": "32GB DDR5 6000MHz",
+    "coolerType": "Air",
+    "coolerModel": "Noctua NH-D15 Chromax",
+    "price": 2999,
+    "image": "https://i.imgur.com/4kWc8h7.jpeg",
+    "tags": [
+      "Signature",
+      "Full-AMD",
+      "Black-Out",
+      "Efficiency"
+    ]
+  },
+  {
+    "id": "SIG-004",
+    "name": "SIGNATURE // MIYAKO",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4070 Ti Super",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i7-14700K",
+    "ram": "32GB DDR5 5600MHz",
+    "coolerType": "Liquid",
+    "coolerModel": "Lian Li Galahad II LCD",
+    "price": 2499,
+    "image": "https://sc04.alicdn.com/kf/H2cadc07ed1314493a7b5d6008049ec41e.jpg",
+    "tags": [
+      "Signature",
+      "Aesthetic",
+      "Pink-Build",
+      "Creator"
+    ]
+  },
+  {
+    "id": "SIG-005",
+    "name": "SIGNATURE // ASUKA",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4090",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i9-14900K",
+    "ram": "128GB DDR5 5200MHz",
+    "coolerType": "Liquid",
+    "coolerModel": "NZXT Kraken Elite 360",
+    "price": 4999,
+    "image": "https://static.wixstatic.com/media/a27d24_de4428bf9c7842f99184948d3d376753~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_568,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/a27d24_de4428bf9c7842f99184948d3d376753~mv2_d_4032_3024_s_4_2.jpg",
+    "tags": [
+      "Signature",
+      "Industrial",
+      "Orange-Accent",
+      "Extreme"
+    ]
+  },
+  {
+    "id": "PC-006",
+    "name": "NEBULA STRIKE",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4070 Super",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 5 7600X",
+    "ram": "16GB DDR5 5200MHz",
+    "coolerType": "Air",
+    "coolerModel": "DeepCool AK400",
+    "price": 1599,
+    "tags": [
+      "Standard",
+      "Mid-Range",
+      "1440p"
+    ]
+  },
+  {
+    "id": "PC-007",
+    "name": "IRON CLAD",
+    "gpuBrand": "AMD",
+    "gpuModel": "Radeon RX 7800 XT",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i5-13600K",
+    "ram": "32GB DDR5 5600MHz",
+    "coolerType": "Air",
+    "coolerModel": "Be Quiet! Dark Rock 4",
+    "price": 1749,
+    "tags": [
+      "Standard",
+      "Stealth",
+      "Value"
+    ]
+  },
+  {
+    "id": "PC-008",
+    "name": "TITAN FLOW",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4060 Ti",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i5-14400F",
+    "ram": "16GB DDR5 4800MHz",
+    "coolerType": "Liquid",
+    "coolerModel": "Cooler Master MasterLiquid",
+    "price": 1299,
+    "tags": [
+      "Standard",
+      "Entry-Level",
+      "Liquid"
+    ]
+  },
+  {
+    "id": "PC-009",
+    "name": "VOID WALKER",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4070 Ti Super",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 9 7900X",
+    "ram": "32GB DDR5 6000MHz",
+    "coolerType": "Liquid",
+    "coolerModel": "Corsair H150i Elite",
+    "price": 2299,
+    "tags": [
+      "Standard",
+      "High-End",
+      "Streaming"
+    ]
+  },
+  {
+    "id": "PC-010",
+    "name": "STORM BREAKER",
+    "gpuBrand": "AMD",
+    "gpuModel": "Radeon RX 7600",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 5 5600",
+    "ram": "16GB DDR4 3200MHz",
+    "coolerType": "Air",
+    "coolerModel": "Stock Cooler",
+    "price": 899,
+    "tags": [
+      "Standard",
+      "Budget",
+      "1080p"
+    ]
+  },
+  {
+    "id": "PC-011",
+    "name": "QUARTZ EDGE",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4080 Super",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i7-13700K",
+    "ram": "32GB DDR5 6000MHz",
+    "coolerType": "Liquid",
+    "coolerModel": "Arctic Liquid Freezer II",
+    "price": 2699,
+    "tags": [
+      "Standard",
+      "White-Build",
+      "Gaming"
+    ]
+  },
+  {
+    "id": "PC-012",
+    "name": "CARBON PULSE",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4060",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 7 5700X",
+    "ram": "16GB DDR4 3600MHz",
+    "coolerType": "Air",
+    "coolerModel": "ID-COOLING SE-224-XTS",
+    "price": 1049,
+    "tags": [
+      "Standard",
+      "Compact",
+      "Efficiency"
+    ]
+  },
+  {
+    "id": "PC-013",
+    "name": "OMEGA POINT",
+    "gpuBrand": "AMD",
+    "gpuModel": "Radeon RX 7900 XT",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 9 7950X",
+    "ram": "64GB DDR5 5600MHz",
+    "coolerType": "Liquid",
+    "coolerModel": "Phanteks Glacier One",
+    "price": 2899,
+    "tags": [
+      "Standard",
+      "Workstation",
+      "Full-AMD"
+    ]
+  },
+  {
+    "id": "PC-014",
+    "name": "LUNAR SHADOW",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4070",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i5-14600K",
+    "ram": "32GB DDR5 5200MHz",
+    "coolerType": "Air",
+    "coolerModel": "Thermalright Peerless Assassin",
+    "price": 1699,
+    "tags": [
+      "Standard",
+      "Aesthetic",
+      "Value"
+    ]
+  },
+  {
+    "id": "PC-015",
+    "name": "FROST BITE",
+    "gpuBrand": "AMD",
+    "gpuModel": "Radeon RX 7700 XT",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 7 7700X",
+    "ram": "32GB DDR5 5600MHz",
+    "coolerType": "Liquid",
+    "coolerModel": "MSI Mag CoreLiquid",
+    "price": 1549,
+    "tags": [
+      "Standard",
+      "Ice-White",
+      "Mid-Range"
+    ]
+  },
+  {
+    "id": "PC-016",
+    "name": "COBALT CORE",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 3060",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i3-13100F",
+    "ram": "16GB DDR4 3200MHz",
+    "coolerType": "Air",
+    "coolerModel": "DeepCool AG300",
+    "price": 799,
+    "tags": [
+      "Standard",
+      "Entry",
+      "Budget"
+    ]
+  },
+  {
+    "id": "PC-017",
+    "name": "ZENITH ONE",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4090",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 9 7950X",
+    "ram": "64GB DDR5 6000MHz",
+    "coolerType": "Liquid",
+    "coolerModel": "Thermaltake TH420",
+    "price": 4299,
+    "tags": [
+      "Standard",
+      "Extreme",
+      "Power"
+    ]
+  },
+  {
+    "id": "PC-018",
+    "name": "MANTIS RIG",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4070 Super",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i7-14700",
+    "ram": "32GB DDR5 5600MHz",
+    "coolerType": "Air",
+    "coolerModel": "Scythe Fuma 3",
+    "price": 1899,
+    "tags": [
+      "Standard",
+      "Quiet",
+      "Green-Build"
+    ]
+  },
+  {
+    "id": "PC-019",
+    "name": "VULCAN DRIVE",
+    "gpuBrand": "AMD",
+    "gpuModel": "Radeon RX 7900 GRE",
+    "cpuBrand": "AMD",
+    "cpuModel": "Ryzen 7 7800X3D",
+    "ram": "32GB DDR5 6000MHz",
+    "coolerType": "Air",
+    "coolerModel": "Be Quiet! Shadow Rock 3",
+    "price": 1999,
+    "tags": [
+      "Standard",
+      "Pure-Gaming",
+      "Optimized"
+    ]
+  },
+  {
+    "id": "PC-020",
+    "name": "STEEL SHREDDER",
+    "gpuBrand": "NVIDIA",
+    "gpuModel": "RTX 4060 Ti",
+    "cpuBrand": "Intel",
+    "cpuModel": "Core i5-12400F",
+    "ram": "16GB DDR4 3200MHz",
+    "coolerType": "Air",
+    "coolerModel": "Cooler Master Hyper 212",
+    "price": 1149,
+    "tags": [
+      "Standard",
+      "Industrial",
+      "Value"
+    ]
+  }
+]
