@@ -10,7 +10,6 @@ export default function FoodCard({ item }) {
                     <span>{item.rating}</span>
                 </div>
             </div>
-
             <div id={`food-info-${item.id}`} className="flex flex-col gap-1">
                 <span id={`food-name-${item.id}`} className="text-teks font-bold text-lg leading-tight">
                     {item.name}

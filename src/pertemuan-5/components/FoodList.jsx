@@ -22,18 +22,16 @@ export default function FoodList() {
 
     return (
         <div id="food-list-container" className="p-5">
-            {/* Section Header */}
             <div id="food-list-header" className="flex items-center justify-between mb-4">
                 <div id="food-list-title-group" className="flex flex-col">
                     <span id="food-list-title" className="text-xl font-bold text-teks">
                         Menu Makanan
                     </span>
                     <span id="food-list-subtitle" className="text-sm text-teks-samping">
-                        {filtered.length} item ditemukan
+                        {filtered.length} item found
                     </span>
                 </div>
 
-                {/* Search Bar */}
                 <div id="food-search-wrapper" className="relative w-64">
                     <input
                         id="food-search-input"
@@ -50,7 +48,6 @@ export default function FoodList() {
                 </div>
             </div>
 
-            {/* Star Filter Buttons */}
             <div id="star-filter-wrapper" className="flex items-center gap-2 mb-4">
                 {STAR_OPTIONS.map((star) => (
                     <button
