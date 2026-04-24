@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Sate Ayam Madura",
+        "price": 30000,
+        "tag": "Skewer",
+        "rating": 4.9
+    },
+    {
+        "id": 2,
+        "name": "Rendang Daging",
+        "price": 50000,
+        "tag": "Beef",
+        "rating": 5.0
+    },
+    {
+        "id": 3,
+        "name": "Bakso Urat",
+        "price": 25000,
+        "tag": "Soup",
+        "rating": 3.8
+    },
+    {
+        "id": 4,
+        "name": "Ayam Geprek",
+        "price": 27000,
+        "tag": "Chicken",
+        "rating": 2.9
+    },
+    {
+        "id": 5,
+        "name": "Kwetiau Goreng",
+        "price": 32000,
+        "tag": "Noodle",
+        "rating": 4.2
+    },
+    {
+        "id": 6,
+        "name": "Tahu Tempe Penyet",
+        "price": 20000,
+        "tag": "Vegetarian",
+        "rating": 1.7
+    }
+]
