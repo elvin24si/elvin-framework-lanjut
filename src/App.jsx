@@ -1,36 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React, { Suspense } from 'react';
 import './assets/tailwind.css';
 import { Routes, Route } from 'react-router-dom';
-import Orders from "./pages/Orders";
-import Customers from "./pages/Customers";
-import Sidebar from "./layouts/Sidebar";
-import Dashboard from "./pages/Dashboard";
-import Header from "./layouts/Header";
+import MainLayout from './layouts/MainLayout';
+import AuthLayout from './layouts/AuthLayout';
+import Sidebar from "./components/Sidebar";
+import Header from "./components/Header";
+import Loading from './components/Loading';
+const Dashboard = React.lazy(() => import("./pages/Dashboard"))
+const Orders = React.lazy(() => import("./pages/Orders"))
+const Customers = React.lazy(() => import("./pages/Customers"))
+const ErrorPage = React.lazy(() => import("./pages/ErrorPage"))
+const Login = React.lazy(() => import("./pages/auth/Login"))
+const Register = React.lazy(() => import("./pages/auth/Register"))
+const Forgot = React.lazy(() => import("./pages/auth/Forgot"))
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div className="flex min-h-screen w-full bg-gray-50">
-
-        <Sidebar />
-
-        <div className="flex-1 flex flex-col p-4">
-          <Header />
-
-          <main className="mt-4">
-            <Routes>
+      <Suspense fallback={<Loading />}>
+        <main className="mt-4">
+          <Routes>
+            <Route element={<MainLayout />}>
               <Route path="/" element={<Dashboard />} />
               <Route path="/orders" element={<Orders />} />
               <Route path="/customers" element={<Customers />} />
-              
-            </Routes>
-          </main>
-        </div>
-      </div>
+            </Route>
+            <Route element={<AuthLayout />}>
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/forgot" element={<Forgot />} />
+            </Route>
+          </Routes>
+        </main>
+      </Suspense>
     </>
   )
 }
