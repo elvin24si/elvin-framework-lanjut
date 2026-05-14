@@ -1,35 +1,35 @@
 import { Link, NavLink } from "react-router-dom"
 
 export default function Sidebar() {
-        const menuClass = ({ isActive }) =>
+    const menuClass = ({ isActive }) =>
         `flex cursor-pointer items-center rounded-xl p-4  space-x-2
-        ${isActive ? 
-            "text-hijau bg-green-200 font-extrabold" : 
+        ${isActive ?
+            "text-hijau bg-green-200 font-extrabold" :
             "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
         }`
     return (
         <div id="sidebar" className="flex min-h-screen w-90 flex-col bg-white p-10 shadow-lg">
             {/* Logo */}
             <div className=" flex flex-col ">
-      <span className="font-poppins font-[1000] text-[48px]">Sedap<b className="text-green-500">.</b></span>
-      <span className="text-gray-400 font-semibold font-barlow">Modern Admin Dashboard</span>
-  </div>
+                <span className="font-poppins font-[1000] text-[48px]">Sedap<b className="text-green-500">.</b></span>
+                <span className="text-gray-400 font-semibold font-barlow">Modern Admin Dashboard</span>
+            </div>
 
             {/* List Menu */}
             <div id="sidebar-menu" className="mt-10">
                 <ul id="menu-list" className="space-y-3">
                     <li>
-	                    <NavLink to="/" id="menu-1" className={menuClass}>
+                        <NavLink to="/" id="menu-1" className={menuClass}>
                             Dashboard</NavLink>
-	                  </li>
+                    </li>
                     <li>
-	                    <NavLink to="/orders" id="menu-2" className={menuClass}>
+                        <NavLink to="/orders" id="menu-2" className={menuClass}>
                             Orders</NavLink>
-	                  </li>
-	                  <li>
-	                    <NavLink to="/customers" id="menu-3" className={menuClass}>
+                    </li>
+                    <li>
+                        <NavLink to="/customers" id="menu-3" className={menuClass}>
                             Customers</NavLink>
-	                  </li>
+                    </li>
                 </ul>
             </div>
 
