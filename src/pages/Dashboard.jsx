@@ -11,7 +11,7 @@ export default function Dashboard() {
                         <FaShoppingCart />
                     </div>
                     <div id="orders-info" className="flex flex-col">
-                        <span id="orders-count" className="text-2xl font-bold">75</span>
+                        <span id="orders-count" className="text-2xl font-bold">105</span>
                         <span id="orders-text" className="text-gray-400">Total Orders</span>
                     </div>
                 </div>
