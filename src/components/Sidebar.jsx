@@ -30,6 +30,18 @@ export default function Sidebar() {
                         <NavLink to="/customers" id="menu-3" className={menuClass}>
                             Customers</NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/login" id="menu-3" className={menuClass}>
+                            Login</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/register" id="menu-4" className={menuClass}>
+                            Register</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/forgot" id="menu-5" className={menuClass}>
+                            Forgot Password</NavLink>
+                    </li>
                 </ul>
             </div>
 
