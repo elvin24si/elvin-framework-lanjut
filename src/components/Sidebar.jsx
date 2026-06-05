@@ -38,6 +38,10 @@ export default function Sidebar() {
 	                    <NavLink to="/components" id="menu-4" className={menuClass}>
                             Components</NavLink>
 	                  </li>
+                      <li>
+	                    <NavLink to="/fiturxyz" id="menu-5" className={menuClass}>
+                            Fitur XYZ</NavLink>
+	                  </li>
                 </ul>
             </div>
 
