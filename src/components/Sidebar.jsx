@@ -42,6 +42,10 @@ export default function Sidebar() {
 	                    <NavLink to="/fiturxyz" id="menu-5" className={menuClass}>
                             Fitur XYZ</NavLink>
 	                  </li>
+                      <li>
+	                    <NavLink to="/notes" id="menu-6" className={menuClass}>
+                            Notes</NavLink>
+	                  </li>
                 </ul>
             </div>
 
