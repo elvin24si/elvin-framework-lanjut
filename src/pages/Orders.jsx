@@ -104,15 +104,32 @@ export default function Orders() {
                                     {new Date(order.tanggal_pesanan).toLocaleDateString('id-ID')}
                                 </td>
                                 <td className="p-4">
-                                    <select
-                                        value={order.status}
-                                        onChange={(e) => handleStatusChange(order.id, e.target.value)}
-                                        className="border border-gray-200 rounded-md px-2 py-1 text-sm outline-none focus:ring-2 focus:ring-hijau"
-                                    >
-                                        <option value="pending">Pending</option>
-                                        <option value="lunas">Lunas</option>
-                                        <option value="dibatalkan">Dibatalkan</option>
-                                    </select>
+                                    {order.status === 'pending' ? (
+                                        <div className="flex gap-2">
+                                            <button
+                                                onClick={() => handleStatusChange(order.id, 'lunas')}
+                                                className="bg-green-500 hover:bg-green-600 text-white px-3 py-1.5 rounded-lg text-xs font-bold shadow-sm transition"
+                                            >
+                                                Konfirmasi
+                                            </button>
+                                            <button
+                                                onClick={() => handleStatusChange(order.id, 'dibatalkan')}
+                                                className="bg-red-500 hover:bg-red-600 text-white px-3 py-1.5 rounded-lg text-xs font-bold shadow-sm transition"
+                                            >
+                                                Batalkan
+                                            </button>
+                                        </div>
+                                    ) : (
+                                        <select
+                                            value={order.status}
+                                            onChange={(e) => handleStatusChange(order.id, e.target.value)}
+                                            className="border border-gray-200 rounded-md px-2 py-1 text-sm outline-none focus:ring-2 focus:ring-hijau"
+                                        >
+                                            <option value="pending">Pending</option>
+                                            <option value="lunas">Lunas</option>
+                                            <option value="dibatalkan">Dibatalkan</option>
+                                        </select>
+                                    )}
                                 </td>
                             </tr>
                         )) : (

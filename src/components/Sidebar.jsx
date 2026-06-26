@@ -77,6 +77,11 @@ export default function Sidebar() {
                                 </NavLink>
                             </li>
                             <li>
+                                <NavLink to="/catalog" id="menu-catalog" className={menuClass}>
+                                    Katalog Produk
+                                </NavLink>
+                            </li>
+                            <li>
                                 <NavLink to="/my-orders" id="menu-my-orders" className={menuClass}>
                                     Pesanan Saya
                                 </NavLink>

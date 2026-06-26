@@ -22,6 +22,8 @@ const Login            = React.lazy(() => import('./pages/auth/Login'))
 const Register         = React.lazy(() => import('./pages/auth/Register'))
 const Forgot           = React.lazy(() => import('./pages/auth/Forgot'))
 
+const Catalog          = React.lazy(() => import('./pages/Catalog'))
+
 function App() {
   return (
     <AuthProvider>
@@ -59,6 +61,7 @@ function App() {
             }>
               <Route path="/dashboard-member" element={<DashboardMember />} />
               <Route path="/my-orders"        element={<MyOrders />} />
+              <Route path="/catalog"          element={<Catalog />} />
             </Route>
 
             {/* 404 */}
