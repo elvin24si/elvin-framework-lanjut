@@ -83,6 +83,7 @@ export default function Catalog() {
             // 1. Ambil customer_id milik member ini
             const { data: customer, error: custError } = await supabase
                 .from('customer')
+                .select('*')
                 .eq('user_id', user.id)
                 .single()
 
@@ -154,11 +155,10 @@ export default function Catalog() {
 
                 {message && (
                     <div
-                        className={`mb-5 p-4 rounded-xl border text-sm ${
-                            message.type === 'success'
-                                ? 'bg-green-50 text-green-700 border-green-200'
-                                : 'bg-red-50 text-red-600 border-red-200'
-                        }`}
+                        className={`mb-5 p-4 rounded-xl border text-sm ${message.type === 'success'
+                            ? 'bg-green-50 text-green-700 border-green-200'
+                            : 'bg-red-50 text-red-600 border-red-200'
+                            }`}
                     >
                         {message.text}
                     </div>
@@ -216,11 +216,10 @@ export default function Catalog() {
                                             <button
                                                 onClick={() => addToCart(prod)}
                                                 disabled={prod.stok < 1}
-                                                className={`px-4 py-2 rounded-xl text-xs font-bold transition ${
-                                                    prod.stok < 1
-                                                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                                                        : 'bg-green-100 text-hijau hover:bg-hijau hover:text-white'
-                                                }`}
+                                                className={`px-4 py-2 rounded-xl text-xs font-bold transition ${prod.stok < 1
+                                                    ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                                                    : 'bg-green-100 text-hijau hover:bg-hijau hover:text-white'
+                                                    }`}
                                             >
                                                 {prod.stok < 1 ? 'Habis' : '+ Tambah'}
                                             </button>
